@@ -2,7 +2,7 @@
 - 👀 Experience in Business Intelligence,datawarehouse,ETL projects
 - 🌱 I’m currently learning cloud machine learning and artificial intelligence 
 - 💞️ I’m looking to collaborate with team experience in cloud machine learning and artificial intelligence projects 
-- 📫 How to reach me through email amit1092tiwari@gmail.com
+- 📫 How to reach me: via email (amit1092tiwari@gmail.com)
 
 <!---
 Amit1092tiwari/Amit1092tiwari is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
