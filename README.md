@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Amit1092tiwari
-- 👀 Experience in Business Intelligence,datawarehouse,ETL project
-- 🌱 I’m currently learning Cloud machine learning and artificial intelligence 
-- 💞️ I’m looking to collaborate with team experience cloud machine learning and artificial intelligence projects 
+- 👀 Experience in Business Intelligence,datawarehouse,ETL projects
+- 🌱 I’m currently learning cloud machine learning and artificial intelligence 
+- 💞️ I’m looking to collaborate with team experience in cloud machine learning and artificial intelligence projects 
 - 📫 How to reach me through email amit1092tiwari@gmail.com
 
 <!---
