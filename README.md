@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Amit1092tiwari
+- 👋 Hi, I’m Amitkumar_Tiwari @Amit1092tiwari
 - 👀 Experience in Business Intelligence,datawarehouse,ETL projects
 - 🌱 I’m currently learning cloud machine learning and artificial intelligence 
 - 💞️ I’m looking to collaborate with team experience in cloud machine learning and artificial intelligence projects 
