@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Amitkumar Tiwari (@Amit1092tiwari)
-- 🎉 Happy to receive **Lakehouse Fundamentals Certification** from Databricks: [Credential Link](https://credentials.databricks.com/634b023d-4e9a-48f2-8053-279fa4047bb4) **Problem solving and SQL gold badge** from HackerRank: [Credential Link](https://www.hackerrank.com/amit1092tiwari?hr_r=1&badge=problem-solving&stars=6&level=3&social=linkedin), **Professional Data Engineering Certification** from Google: [Credential Link](https://www.credential.net/78e593ff-1e0d-4923-bd77-58f0d5d4fa75#acc.z3coduVb)  
+- 🎉 Happy to receive **Lakehouse Fundamentals Certification** from Databricks: [Credential Link](https://credentials.databricks.com/634b023d-4e9a-48f2-8053-279fa4047bb4), **Professional Data Engineering Certification** from Google Cloud: [Credential Link](https://www.credential.net/78e593ff-1e0d-4923-bd77-58f0d5d4fa75#acc.z3coduVb)  
 - 💼 5+ years of experience in **development, deployment, testing, analysis reporting/insights, and technical documentation** on cloud & on-prem servers in **Finance, Supply Chain, Manufacturing, Pharmacy, and IoT domains**  
 - 🚀 Built multiple **batch and event-driven data pipeline utility applications** using **GCP products**  
 - 🤝 Experienced in **interacting with clients' Business & Technical teams** to clarify and refine requirements  
