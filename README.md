@@ -1,9 +1,10 @@
-<h<div align="center">
+<div align="center">
   <h1 align="center">Hi there, I'm Amitkumar Tiwari 👋</h1>
   <p align="center"><strong>Data Engineer | Cloud & Big Data Specialist</strong></p>
   
   <p align="center">
     <a href="https://www.linkedin.com/in/amitkumar-tiwari-651b06ab/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" alt="LinkedIn"></a>
+    <a href="https://www.hackerrank.com/profile/amit1092tiwari"><img src="https://img.shields.io/badge/HackerRank-Profile-2EC866?style=flat&logo=hackerrank&logoColor=white" alt="HackerRank"></a>
     <a href="mailto:amit1092tiwari@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail" alt="Email"></a>
   </p>
 </div>
@@ -18,9 +19,11 @@
 
 ---
 
-### 🏆 Certifications
-* **Databricks:** [Lakehouse Fundamentals Certification](https://credentials.databricks.com/634b023d-4e9a-48f2-8053-279fa4047bb4)
-* **Google Cloud:** [Professional Data Engineer Certification](https://www.credential.net/78e593ff-1e0d-4923-bd77-58f0d5d4fa75#acc.z3coduVb)
+### 🏆 Certifications & Profiles
+* **Google Cloud:** [Professional Data Engineer Certification](https://www.credential.net/78e593ff-1e0d-4923-bd77-58f0d5d4fa75#acc.z3coduVb) 
+  * 🔗 Verified via [Google Cloud Skills Profile](https://partner.skills.google/public_profiles/79b58e8e-82e7-4721-81f7-31bc2f706f9f)
+* **Databricks:** [Lakehouse Fundamentals Certification](https://credentials.databricks.com/634b023d-4e9a-48f2-8053-279fa4047bb4) 
+  * 🔗 Verified via [Credly Badge Profile](https://www.credly.com/users/amitkumar-tiwari.f6b76f97/badges/credly)
 
 ---
 
