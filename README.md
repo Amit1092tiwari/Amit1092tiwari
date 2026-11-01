@@ -40,16 +40,11 @@
 
 ### 📂 Featured Systems & Architecture Repositories
 
-- **[lakehouse-cdc-compaction-benchmark](https://github.com/Amit1092tiwari/lakehouse-cdc-compaction-benchmark)**  
-  *1-Command reproducible benchmark simulating high-frequency CDC streaming flushes to object storage (MinIO) and demonstrating automated Merge-on-Read compaction via DuckDB/PyArrow. Achieves a 99.7% file handle reduction and 28x analytical query speedup.*
-- **[Advancesqlpuzzle](https://github.com/Amit1092tiwari/Advancesqlpuzzle)**  
-  *Curated advanced T-SQL algorithmic patterns, complex set-based computations, and query optimization techniques.*
-- **[bigdata](https://github.com/Amit1092tiwari/bigdata)**  
-  *Distributed data processing architectures, MapReduce paradigms, and Apache Spark ecosystem benchmarks.*
-- **[Machine-Learning-Projects](https://github.com/Amit1092tiwari/Machine-Learning-Projects)**  
-  *Applied statistical learning models and end-to-end predictive pipelines with automated evaluation routines.*
-- **[Python-Projects](https://github.com/Amit1092tiwari/Python-Projects)**  
-  *Modular Python utility scripts, automated data extraction harnesses, and developer tooling.*
+- **[lakehouse-cdc-compaction-benchmark](https://github.com/Amit1092tiwari/lakehouse-cdc-compaction-benchmark)**: 1-Command reproducible benchmark simulating high-frequency CDC streaming flushes to object storage (MinIO) and demonstrating automated Merge-on-Read compaction via DuckDB/PyArrow. Achieves a 99.7% file handle reduction and 28x analytical query speedup.
+- **[Advancesqlpuzzle](https://github.com/Amit1092tiwari/Advancesqlpuzzle)**: Curated advanced T-SQL algorithmic patterns, complex set-based computations, and query optimization techniques.
+- **[bigdata](https://github.com/Amit1092tiwari/bigdata)**: Distributed data processing architectures, MapReduce paradigms, and Apache Spark ecosystem benchmarks.
+- **[Machine-Learning-Projects](https://github.com/Amit1092tiwari/Machine-Learning-Projects)**: Applied statistical learning models and end-to-end predictive pipelines with automated evaluation routines.
+- **[Python-Projects](https://github.com/Amit1092tiwari/Python-Projects)**: Modular Python utility scripts, automated data extraction harnesses, and developer tooling.
 
 ---
 
