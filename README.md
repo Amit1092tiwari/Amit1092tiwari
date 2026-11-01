@@ -1,6 +1,6 @@
 <div align="center">
   <h1 align="center">Hi there, I'm Amitkumar Tiwari 👋</h1>
-  <p align="center"><strong>Data Engineer | Cloud & Big Data Specialist</strong></p>
+  <p align="center"><strong>Senior Data Engineer | Distributed Systems & Cloud Platformst</strong></p>
   
   <p align="center">
     <a href="https://www.linkedin.com/in/amitkumar-tiwari-651b06ab/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" alt="LinkedIn"></a>
@@ -12,14 +12,15 @@
 ---
 
 ### 👨‍💻 Professional Summary
-* 💼 **8+ years of experience** spanning development, deployment, testing, analysis reporting, and technical documentation across cloud and on-prem servers in **Finance, Supply Chain, Manufacturing, Pharmacy, and IoT domains**.
-* 🚀 Built multiple **batch and event-driven data pipeline utility applications** utilizing core **Google Cloud Platform (GCP)** services.
-* 🤝 Experienced in collaborating directly with client business and technical teams to gather, clarify, and refine system requirements.
-* ☁️ Deep expertise in **Cloud Data Warehousing** (Google Cloud) and designing scalable data architecture for complex IoT and business use cases.
 
+- 💼 **8+ years of experience** architecting, developing, and automating large-scale batch and streaming data systems across **Finance, Supply Chain, Manufacturing, Pharma, and IoT domains**.
+- 🚀 Deep expertise in **Cloud Data Warehousing & Lakehouse Architecture** on Google Cloud Platform (BigQuery, Cloud Storage, Pub/Sub, Cloud Functions, Dataproc, Cloud Composer/Airflow).
+- ⚙️ Specializing in **low-latency streaming data pipelines, Change Data Capture (CDC) ingestion, and file layout optimization** (Merge-on-Read, automated compaction).
+- 🛠️ Strong foundation in infrastructure automation (**Terraform / GitOps**) and end-to-end data pipeline observability (**OpenTelemetry, pipeline metrics, and distributed tracing**).
+  
 ---
 
-### 🏆 Certifications & Profiles
+### 🏆 Certifications & Credentials
 * **Google Cloud:** [Professional Data Engineer Certification](https://www.credential.net/78e593ff-1e0d-4923-bd77-58f0d5d4fa75#acc.z3coduVb) 
   * 🔗 Verified via [Google Cloud Skills Profile](https://partner.skills.google/public_profiles/79b58e8e-82e7-4721-81f7-31bc2f706f9f)
 * **Databricks:** [Lakehouse Fundamentals Certification](https://credentials.databricks.com/634b023d-4e9a-48f2-8053-279fa4047bb4) 
@@ -27,24 +28,33 @@
 
 ---
 
-### 🛠️ Core Tech Stack & Skills
-* **Data Engineering Concepts:** Data Warehousing, Delta Lake, Data Lake, Pipeline Scheduling, ETL Architecture, Data Modeling, SCD-1, SCD-2, and Incremental Loading Approaches.
-* **Languages & Querying:** SQL, Python, T-SQL
-* **Cloud & Big Data:** Google Cloud Platform (BigQuery, Cloud Storage, Pub/Sub, Cloud Functions), Apache Airflow, Apache Spark, and Hadoop.
+### 🛠️ Core Tech Stack & Engineering Skills
+
+- **Distributed Systems & Storage:** Apache Spark, PySpark, DuckDB, PyArrow, Delta Lake, Apache Hudi, Apache Kafka, MinIO (S3 API).
+- **Data Engineering & Architecture:** CDC Streaming Ingestion, Merge-on-Read (MoR), Copy-on-Write (CoW), Compaction Tuning, ETL/ELT Pipelines, SCD Type 1 & 2, Data Vault & Dimensional Modeling.
+- **Observability & Reliability:** OpenTelemetry (OTel), distributed tracing, pipeline throughput/latency profiling, file descriptor & IOPS monitoring, and root-cause telemetry.
+- **Cloud & Orchestration:** Google Cloud Platform (BigQuery, Dataproc, Composer, Dataflow, Cloud Functions), Apache Airflow, Docker, Kubernetes.
+- **Languages & Infrastructure:** Python, SQL, T-SQL, Bash, Terraform (IaC), Git.
 
 ---
 
-### 📂 Featured Repositories
+### 📂 Featured Systems & Architecture Repositories
 
-* **[bigdata](https://github.com/Amit1092tiwari/bigdata):** Code, projects, demos, and slides for Big Data technologies under the Apache Hadoop and Apache Spark ecosystem.
-* **[Advancesqlpuzzle](https://github.com/Amit1092tiwari/Advancesqlpuzzle):** Advanced T-SQL query solutions and complex data problem-solving.
-* **[Machine-Learning](https://github.com/Amit1092tiwari/Machine-Learning):** Notebooks and hands-on implementations covering core machine learning algorithms.
-* **[Machine-Learning-Projects](https://github.com/Amit1092tiwari/Machine-Learning-Projects):** End-to-end applied machine learning projects and predictive models.
-* **[Python-Projects](https://github.com/Amit1092tiwari/Python-Projects):** Collection of practical Python scripts, automation utilities, and tools.
+- **[lakehouse-cdc-compaction-benchmark](https://github.com/Amit1092tiwari/lakehouse-cdc-compaction-benchmark)**  
+  *1-Command reproducible benchmark simulating high-frequency CDC streaming flushes to object storage (MinIO) and demonstrating automated Merge-on-Read compaction via DuckDB/PyArrow. Achieves a 99.7% file handle reduction and 28x analytical query speedup.*
+- **[Advancesqlpuzzle](https://github.com/Amit1092tiwari/Advancesqlpuzzle)**  
+  *Curated advanced T-SQL algorithmic patterns, complex set-based computations, and query optimization techniques.*
+- **[bigdata](https://github.com/Amit1092tiwari/bigdata)**  
+  *Distributed data processing architectures, MapReduce paradigms, and Apache Spark ecosystem benchmarks.*
+- **[Machine-Learning-Projects](https://github.com/Amit1092tiwari/Machine-Learning-Projects)**  
+  *Applied statistical learning models and end-to-end predictive pipelines with automated evaluation routines.*
+- **[Python-Projects](https://github.com/Amit1092tiwari/Python-Projects)**  
+  *Modular Python utility scripts, automated data extraction harnesses, and developer tooling.*
 
 ---
 
 ### 🌐 Collaboration & Contact
-* 📚 Currently focused on advancing projects in **Data Engineering, Machine Learning, and Artificial Intelligence**.
-* 🤝 Open to collaborating with teams building robust data platforms and AI solutions.
-* 📫 Get in touch: [amit1092tiwari@gmail.com](mailto:amit1092tiwari@gmail.com)
+
+- 📚 Currently researching and building scalable patterns in **Lakehouse storage engines, real-time CDC compaction, and OpenTelemetry instrumentation**.
+- 🤝 Open to technical collaboration, systems architecture writing, and high-throughput data engineering initiatives.
+- 📫 Reach out directly: **amit1092tiwari@gmail.com** or connect on [LinkedIn](https://www.linkedin.com/in/amitkumar-tiwari-651b06ab/).
