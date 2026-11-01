@@ -1,6 +1,6 @@
 <div align="center">
   <h1 align="center">Hi there, I'm Amitkumar Tiwari 👋</h1>
-  <p align="center"><strong>Senior Data Engineer | Distributed Systems & Cloud Platformst</strong></p>
+  <p align="center"><strong>Senior Data Engineer | Distributed Systems & Cloud Platforms</strong></p>
   
   <p align="center">
     <a href="https://www.linkedin.com/in/amitkumar-tiwari-651b06ab/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" alt="LinkedIn"></a>
