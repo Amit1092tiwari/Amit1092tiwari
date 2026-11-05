@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 align="center">Hi there, I'm Amitkumar Tiwari 
+  <h1 align="center">Hi, here is Amit
 </h1>
   <p align="center"><strong>Senior Data Engineer | Distributed Systems & Cloud Platforms</strong></p>
   
