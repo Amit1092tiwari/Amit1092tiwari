@@ -35,17 +35,6 @@ Most of my day-to-day work centers around:
 - **[lakehouse-cdc-compaction-benchmark](https://github.com/Amit1092tiwari/lakehouse-cdc-compaction-benchmark)**
   A standalone, 1-command benchmark simulating high-frequency CDC flushes to S3/MinIO. Demonstrates automated compaction with DuckDB/PyArrow to solve the small-files problem, reducing file handles by 99.7% and speeding up analytical queries by 28x.
 
-- **[Advancesqlpuzzle](https://github.com/Amit1092tiwari/Advancesqlpuzzle)**
-  Solutions and query optimization walkthroughs for complex T-SQL algorithmic patterns, window functions, and set-based computations.
-
-- **[bigdata](https://github.com/Amit1092tiwari/bigdata)**
-  Reference architectures and benchmarks for Apache Spark and distributed data processing.
-
-- **[Machine-Learning-Projects](https://github.com/Amit1092tiwari/Machine-Learning-Projects)**
-  Practical ML pipelines, covering model training, testing, and evaluation metrics.
-
-- **[Python-Projects](https://github.com/Amit1092tiwari/Python-Projects)**
-  A collection of reusable Python scripts and automation utilities for ETL and data scraping.
 
 ---
 
