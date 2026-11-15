@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amitkumar Tiwari | Senior Data Engineer & Lakehouse Architect</title>
+  <meta name="description" content="Senior Data Engineer specializing in Google Cloud Platform (GCP), Distributed Systems, Lakehouse Architecture, PySpark, DuckDB, and Real-Time CDC Ingestion.">
+  <meta name="author" content="Amitkumar Tiwari">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --card-border: #30363d;
+      --text: #c9d1d9;
+      --text-bright: #f0f6fc;
+      --text-muted: #8b949e;
+      --accent: #58a6ff;
+      --accent-hover: #79c0ff;
+      --badge-bg: #1f2937;
+      --badge-text: #93c5fd;
+      --tag-bg: #21262d;
+      --tag-text: #8b949e;
+      --success: #3fb950;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      --max-width: 1040px;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f6f8fa;
+        --card-bg: #ffffff;
+        --card-border: #d0d7de;
+        --text: #24292f;
+        --text-bright: #0969da;
+        --text-muted: #57606a;
+        --accent: #0969da;
+        --accent-hover: #0550ae;
+        --badge-bg: #ddf4ff;
+        --badge-text: #0969da;
+        --tag-bg: #f3f4f6;
+        --tag-text: #57606a;
+        --success: #1a7f37;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      padding: 2.5rem 1.25rem;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    /* Header & Hero */
+    header {
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--card-border);
+      margin-bottom: 2.5rem;
+    }
+
+    .badge-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 0.25rem 0.65rem;
+      border-radius: 9999px;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      border: 1px solid rgba(88, 166, 255, 0.2);
+    }
+
+    .badge-verified {
+      background: rgba(63, 185, 80, 0.15);
+      color: var(--success);
+      border-color: rgba(63, 185, 80, 0.3);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: var(--text-bright);
+      letter-spacing: -0.025em;
+      margin-bottom: 0.5rem;
+    }
+
+    .lead-title {
+      font-size: 1.25rem;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .hero-bio {
+      font-size: 1.05rem;
+      color: var(--text);
+      max-width: 850px;
+      margin-bottom: 1.5rem;
+    }
+
+    .quick-links {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1rem;
+      font-size: 0.95rem;
+    }
+
+    .quick-links a, .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.15s ease;
+    }
+
+    .quick-links a:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+
+    .btn {
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-bright);
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    .btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #ffffff !important;
+      border-color: var(--accent);
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+      color: #ffffff !important;
+      text-decoration: none;
+    }
+
+    /* Section layout */
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--text-bright);
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 0.5rem;
+    }
+
+    /* Grid Layouts */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    /* Cards */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .card h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--text-bright);
+      margin-bottom: 0.4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card-meta {
+      font-size: 0.825rem;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+      font-family: var(--font-mono);
+    }
+
+    .card p {
+      font-size: 0.925rem;
+      color: var(--text);
+      margin-bottom: 0.85rem;
+    }
+
+    .stats-pill {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--success);
+      background: rgba(63, 185, 80, 0.12);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+    }
+
+    .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-top: 0.5rem;
+    }
+
+    .tag {
+      font-size: 0.75rem;
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-family: var(--font-mono);
+    }
+
+    /* Experience Timeline */
+    .timeline {
+      position: relative;
+      border-left: 2px solid var(--card-border);
+      padding-left: 1.5rem;
+      margin-left: 0.5rem;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 2rem;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -1.95rem;
+      top: 0.25rem;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent);
+      border: 3px solid var(--bg);
+    }
+
+    .role-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.25rem;
+    }
+
+    .role-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-bright);
+    }
+
+    .company-name {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .role-dates {
+      font-size: 0.825rem;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    .bullet-list {
+      margin-top: 0.6rem;
+      padding-left: 1.25rem;
+    }
+
+    .bullet-list li {
+      font-size: 0.925rem;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+    }
+
+    .bullet-list li strong {
+      color: var(--text-bright);
+    }
+
+    /* Skills Grid */
+    .skill-category {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+    }
+
+    .skill-category h4 {
+      font-size: 0.95rem;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .skill-category p {
+      font-size: 0.9rem;
+      color: var(--text);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding-top: 2rem;
+      margin-top: 4rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Print Stylesheet */
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #000000 !important;
+        padding: 0 !important;
+        font-size: 9.5pt !important;
+      }
+
+      .container { max-width: 100% !important; }
+
+      header {
+        border-bottom: 2px solid #000 !important;
+        padding-bottom: 0.75rem !important;
+        margin-bottom: 1rem !important;
+      }
+
+      h1 { font-size: 18pt !important; color: #000 !important; margin-bottom: 2pt !important; }
+      .lead-title { font-size: 11pt !important; color: #333 !important; margin-bottom: 4pt !important; }
+      .hero-bio { font-size: 9.5pt !important; color: #222 !important; margin-bottom: 6pt !important; }
+
+      .btn, .quick-links .btn { display: none !important; }
+
+      h2 {
+        font-size: 11.5pt !important;
+        color: #000 !important;
+        border-bottom: 1px solid #333 !important;
+        padding-bottom: 2pt !important;
+        margin-bottom: 6pt !important;
+        margin-top: 10pt !important;
+      }
+
+      .card {
+        border: 1px solid #ccc !important;
+        background: #fff !important;
+        padding: 6pt !important;
+        page-break-inside: avoid;
+      }
+
+      .timeline-item { page-break-inside: avoid; margin-bottom: 10pt !important; }
+      .timeline { border-left-color: #999 !important; padding-left: 10pt !important; }
+      .timeline-item::before { display: none !important; }
+
+      .bullet-list li { font-size: 9pt !important; margin-bottom: 2pt !important; color: #111 !important; }
+      .bullet-list li strong { color: #000 !important; }
+      
+      .tag { border: 1px solid #ddd !important; background: #fafafa !important; color: #333 !important; }
+      footer { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header / Hero Section -->
+    <header>
+      <div class="badge-bar">
+        <span class="badge badge-verified">✓ Google Certified Professional Data Engineer</span>
+        <span class="badge badge-verified">✓ Databricks Certified Lakehouse Fundamentals</span>
+        <span class="badge">80+ GCP Badges</span>
+        <span class="badge">8+ Years Experience</span>
+      </div>
+
+      <h1>Amitkumar Tiwari</h1>
+      <div class="lead-title">Senior Data Engineer | Distributed Systems & Lakehouse Architecture</div>
+
+      <p class="hero-bio">
+        GCP-certified Senior Data Engineer with 8+ years of expertise designing enterprise Data Lakehouses, 
+        event-driven serverless systems, and low-latency streaming architectures. Track record includes leading legacy-to-GCP 
+        modernizations across 100+ business segments, optimizing 40+ multi-terabyte PySpark workloads, and building reproducible 
+        Lakehouse storage compaction engines.
+      </p>
+
+      <div class="quick-links">
+        <button class="btn btn-primary" onclick="window.print()">🖨️ Print / Save as PDF</button>
+        <a class="btn" href="https://github.com/Amit1092tiwari" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub Profile
+        </a>
+        <a class="btn" href="https://www.linkedin.com/in/amitkumar-tiwari-651b06ab/" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          LinkedIn
+        </a>
+        <a class="btn" href="mailto:amit1092tiwari@gmail.com">
+          ✉️ amit1092tiwari@gmail.com
+        </a>
+        <span style="color: var(--text-muted); font-size: 0.9rem;">📍 Mumbai, India</span>
+      </div>
+    </header>
+
+    <!-- Key Impact Metrics Bar -->
+    <section>
+      <div class="grid-3">
+        <div class="card" style="text-align: center;">
+          <div style="font-size: 2rem; font-weight: 800; color: var(--accent);">8+ Years</div>
+          <div class="card-meta">ENTERPRISE DATA SYSTEMS</div>
+          <p>Architecting production data pipelines across Finance, Supply Chain, and IoT domains.</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <div style="font-size: 2rem; font-weight: 800; color: var(--success);">50,000+</div>
+          <div class="card-meta">MONTHLY WORKLOADS</div>
+          <p>Ensuring 99.9% uptime and data consistency for large-scale enterprise data operations.</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <div style="font-size: 2rem; font-weight: 800; color: var(--accent);">99.7%</div>
+          <div class="card-meta">IOPS & STORAGE COMPACTION</div>
+          <p>Benchmark reduction in storage handles and 28x query speedup via automated Merge-on-Read.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Systems & Architecture Repositories -->
+    <section>
+      <h2>🏛️ Featured Systems & Open-Source Architectures</h2>
+      <div class="grid-2">
+        
+        <div class="card">
+          <h3>
+            <a href="https://github.com/Amit1092tiwari/open-lakehouse-platform" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">open-lakehouse-platform</a>
+            <span class="badge">Architecture</span>
+          </h3>
+          <div class="card-meta">Python • Apache Spark • Kafka • DuckDB • dbt • MinIO</div>
+          <div class="stats-pill">20 Docker Services • 90+ Automated Tests</div>
+          <p>A fully containerized enterprise data platform that completely replaces proprietary SaaS components (Snowflake, Tableau) with 100% open-source technologies (PostgreSQL OLAP star schema, DuckDB columnar engine, Superset, and Grafana).</p>
+          <div class="tag-container">
+            <span class="tag">Medallion dbt</span>
+            <span class="tag">Structured Streaming</span>
+            <span class="tag">Airflow DAGs</span>
+            <span class="tag">Prometheus / Grafana</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>
+            <a href="https://github.com/Amit1092tiwari/lakehouse-cdc-compaction-benchmark" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">lakehouse-cdc-compaction-benchmark</a>
+            <span class="badge">Benchmark</span>
+          </h3>
+          <div class="card-meta">Python • DuckDB • PyArrow • MinIO (S3 API) • Docker</div>
+          <div class="stats-pill">99.7% Handle Reduction • 28x Analytical Speedup</div>
+          <p>A 1-command reproducible benchmark simulating high-frequency CDC streaming flushes to S3/MinIO object storage, implementing automated Merge-on-Read file compaction with DuckDB/PyArrow to permanently solve the small-files problem.</p>
+          <div class="tag-container">
+            <span class="tag">Merge-on-Read</span>
+            <span class="tag">Storage Optimization</span>
+            <span class="tag">OpenTelemetry</span>
+            <span class="tag">IOPS Profiling</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>
+            <a href="https://github.com/Amit1092tiwari/sql_scripts" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">sql_scripts</a>
+            <span class="badge">Data Ops</span>
+          </h3>
+          <div class="card-meta">T-SQL • PL/pgSQL • MySQL • Oracle • Greenplum</div>
+          <p>Production-grade database utility scripts, automated data validation routines, automated data dictionary generators, and cross-platform schema-diff tools across 5 major RDBMS engines.</p>
+          <div class="tag-container">
+            <span class="tag">Data Quality</span>
+            <span class="tag">Schema Validation</span>
+            <span class="tag">Performance Tuning</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>
+            <a href="https://github.com/Amit1092tiwari/Advancesqlpuzzle" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">Advancesqlpuzzle</a>
+            <span class="badge">Algorithms</span>
+          </h3>
+          <div class="card-meta">T-SQL • Complex Window Functions • Set Theory</div>
+          <p>A curated repository of advanced algorithmic SQL puzzle solutions, complex set-based computations, recursive queries, and query optimizer execution plan walkthroughs.</p>
+          <div class="tag-container">
+            <span class="tag">Window Functions</span>
+            <span class="tag">Execution Plans</span>
+            <span class="tag">Recursive CTEs</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Professional Experience Timeline -->
+    <section>
+      <h2>💼 Professional Experience</h2>
+      <div class="timeline">
+
+        <!-- Role 1: TCS -->
+        <div class="timeline-item">
+          <div class="role-header">
+            <div>
+              <span class="role-title">Senior Data Engineer (GCP Stack)</span> · 
+              <span class="company-name">Tata Consultancy Services</span>
+            </div>
+            <div class="role-dates">08/2022 – Present | Mumbai, India</div>
+          </div>
+          <ul class="bullet-list">
+            <li><strong>Cloud Architecture & Large-Scale Migration:</strong> Architected and executed the migration of legacy on-premise data systems (Hadoop, K-Shell scripts, RDBMS) to a serverless GCP Data Lakehouse (Cloud Storage, Dataproc, BigQuery), onboarding 100+ business segments.</li>
+            <li><strong>High-Scale PySpark Optimization:</strong> Engineered 40+ complex PySpark jobs on Cloud Dataproc for multi-terabyte semi-structured data; implemented shuffle partition tuning, broadcast joins, and encryption/decryption modules.</li>
+            <li><strong>Enterprise Orchestration:</strong> Designed fault-tolerant workflows using Cloud Composer (Apache Airflow on GKE) with automated alerting, retry logic, and end-to-end BigQuery data warehousing.</li>
+            <li><strong>Event-Driven Serverless Pipeline:</strong> Built a high-concurrency speech-to-text pipeline utilizing Python Cloud Functions, FFMPEG, and Google Speech API, maintaining compliance via BigQuery audit logs and OAuth 2.0 Workload Identity Federation (WIF).</li>
+            <li><strong>Production Reliability:</strong> Automated unit, sanity, and regression testing frameworks ensuring 99.9% reliability for over 50,000 monthly pipeline workloads.</li>
+          </ul>
+        </div>
+
+        <!-- Role 2: Quantiphi -->
+        <div class="timeline-item">
+          <div class="role-header">
+            <div>
+              <span class="role-title">Senior Data Engineer (GCP Stack)</span> · 
+              <span class="company-name">Quantiphi</span>
+            </div>
+            <div class="role-dates">10/2021 – 07/2022 | Mumbai, India</div>
+          </div>
+          <ul class="bullet-list">
+            <li><strong>Near-Real-Time Streaming Pipelines:</strong> Engineered 7 high-frequency Apache Beam (Dataflow) ingestion pipelines with custom REST/HTTPS modules, streaming Salesforce data into BigQuery every 15 minutes with dynamic schema mapping.</li>
+            <li><strong>CDC & Cloud Data Fusion:</strong> Automated multi-table CDC ingestion from Oracle and MSSQL databases into BigQuery using GCP Data Fusion JDBC connectors, significantly reducing source database overhead.</li>
+            <li><strong>Medallion Data Lakehouse:</strong> Architected 15+ batch ETL pipelines ingesting 190+ GB of heterogeneous data into a structured BigQuery Lakehouse (Bronze/Raw, Silver/Curated, Gold/BI).</li>
+            <li><strong>Cloud Architecture Pre-Sales:</strong> Conducted technical POCs and led architectural discussions for enterprise prospects, establishing cloud integration roadmaps and cost-optimized GCP tool selections.</li>
+          </ul>
+        </div>
+
+        <!-- Role 3: Radix Electrosystem -->
+        <div class="timeline-item">
+          <div class="role-header">
+            <div>
+              <span class="role-title">Data Engineer</span> · 
+              <span class="company-name">Radix Electrosystem</span>
+            </div>
+            <div class="role-dates">05/2019 – 09/2021 | Mumbai, India</div>
+          </div>
+          <ul class="bullet-list">
+            <li><strong>Cloud Data Lake Roadmap:</strong> Co-designed the enterprise Cloud Data Lake roadmap on GCP, establishing scalable data governance and integration patterns across Pharma and Supply Chain verticals.</li>
+            <li><strong>BigQuery Dimensional Modeling:</strong> Designed Star Schema and Fact/Dimension models in BigQuery with SCD Type-1 and Type-2 logic for historical dimensional tracking.</li>
+            <li><strong>Serverless Data Ingestion:</strong> Built automated SFTP-to-BigQuery ingestion workflows leveraging Cloud Functions, Pub/Sub, and Cloud Composer with automated data validation and schema harmonization.</li>
+          </ul>
+        </div>
+
+        <!-- Role 4: Consulta Enterprise -->
+        <div class="timeline-item">
+          <div class="role-header">
+            <div>
+              <span class="role-title">ETL Developer</span> · 
+              <span class="company-name">Consulta Enterprise</span>
+            </div>
+            <div class="role-dates">12/2017 – 04/2019</div>
+          </div>
+          <ul class="bullet-list">
+            <li>Built PostgreSQL data marts using Sqoop and automated Python ETL scripts.</li>
+            <li>Maintained Operational Data Stores (ODS) and authored complex SQL transformations for consistent enterprise reporting.</li>
+          </ul>
+        </div>
+
+        <!-- Role 5: Emerson -->
+        <div class="timeline-item">
+          <div class="role-header">
+            <div>
+              <span class="role-title">Associate</span> · 
+              <span class="company-name">Emerson</span>
+            </div>
+            <div class="role-dates">06/2015 – 11/2017</div>
+          </div>
+          <ul class="bullet-list">
+            <li>Developed SCADA telemetry dashboards and Modbus communication protocols for real-time IoT field sensor data acquisition.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Technical Competencies Grid -->
+    <section>
+      <h2>🛠️ Core Technical Competencies</h2>
+      <div class="grid-2">
+        <div class="skill-category">
+          <h4>Google Cloud Platform (GCP)</h4>
+          <p>BigQuery, Dataproc (Spark), Cloud Composer (Airflow), Dataflow (Apache Beam), Cloud Functions, Pub/Sub, Cloud Storage (GCS), Data Fusion, Workload Identity Federation (WIF), Secret Manager.</p>
+        </div>
+        <div class="skill-category">
+          <h4>Distributed Systems & Lakehouse</h4>
+          <p>Apache Spark, PySpark, DuckDB, PyArrow, Kafka, Delta Lake, MinIO (S3 API), CDC Ingestion, Merge-on-Read (MoR), Automated Compaction, Medallion Architecture (Bronze/Silver/Gold).</p>
+        </div>
+        <div class="skill-category">
+          <h4>Database Internals & Data Modeling</h4>
+          <p>Dimensional Modeling, Star Schema, Snowflake Schema, SCD Type 1 & 2, PostgreSQL, Microsoft SQL Server (T-SQL), Oracle, MySQL, MongoDB, Redis.</p>
+        </div>
+        <div class="skill-category">
+          <h4>DevOps, IaC & Observability</h4>
+          <p>Terraform (IaC), Docker, Kubernetes (GKE), GitHub Actions, OpenTelemetry (OTel), Prometheus, Grafana, Linux/Unix Shell Scripting, Git.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Verified Credentials & Education -->
+    <section>
+      <h2>🏆 Verified Credentials & Accreditations</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Google Cloud Certified</h3>
+          <div class="card-meta">PROFESSIONAL DATA ENGINEER</div>
+          <p>Demonstrated technical mastery in designing, building, operationalizing, and securing data processing systems on Google Cloud.</p>
+          <a class="btn" href="https://www.credential.net/78e593ff-1e0d-4923-bd77-58f0d5d4fa75#acc.z3coduVb" target="_blank" rel="noopener">
+            Verify Certificate ↗
+          </a>
+          <a class="btn" href="https://partner.skills.google/public_profiles/79b58e8e-82e7-4721-81f7-31bc2f706f9f" target="_blank" rel="noopener">
+            Google Skills Profile (80+ Badges) ↗
+          </a>
+        </div>
+
+        <div class="card">
+          <h3>Databricks Certified</h3>
+          <div class="card-meta">LAKEHOUSE FUNDAMENTALS</div>
+          <p>Validated architectural understanding of Data Lakehouse fundamentals, Delta Lake, Apache Spark processing, and unified governance.</p>
+          <a class="btn" href="https://credentials.databricks.com/634b023d-4e9a-48f2-8053-279fa4047bb4" target="_blank" rel="noopener">
+            Verify Databricks Credential ↗
+          </a>
+          <a class="btn" href="https://www.credly.com/users/amitkumar-tiwari.f6b76f97/badges/credly" target="_blank" rel="noopener">
+            Credly Profile ↗
+          </a>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top: 1.25rem;">
+        <h3>🎓 Education</h3>
+        <p style="margin-bottom: 0;"><strong>Bachelor of Technology (B.Tech) in Instrumentation & Controls Engineering</strong></p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 Amitkumar Tiwari · Professional Technical Portfolio & Dossier</p>
+      <p style="margin-top: 0.35rem;">Hosted on GitHub Pages · Built for Technical Leadership & Engineering Evaluation</p>
+    </footer>
+  </div>
+
+</body>
+</html>
