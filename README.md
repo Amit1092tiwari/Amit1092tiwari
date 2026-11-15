@@ -30,19 +30,19 @@ Most of my day-to-day work centers around:
 
 ### Projects & Repositories
 
-- **[open-lakehouse-platform](https://github.com/Amit1092tiwari/open-lakehouse-platform)**
+- **[open-lakehouse-platform-000a01bc](https://github.com/Amit1092tiwari/open-lakehouse-platform-000a01bc)**
   A containerized, vendor-neutral enterprise data platform replacing proprietary SaaS stacks with open-source engines (Spark, Kafka, Airflow, DuckDB, dbt Medallion, MinIO, and Superset/Grafana). Includes 20 Docker services and 90+ automated tests.
 
 - **[lakehouse-cdc-compaction-benchmark](https://github.com/Amit1092tiwari/lakehouse-cdc-compaction-benchmark)**
   A standalone, 1-command benchmark simulating high-frequency CDC flushes to S3/MinIO. Demonstrates automated compaction with DuckDB/PyArrow to solve the small-files problem, reducing file handles by 99.7% and speeding up analytical queries by 28x.
 
-- **[sql_scripts](https://github.com/Amit1092tiwari/sql_scripts)**
+- **[database-platform-utility-000a01bc](https://github.com/Amit1092tiwari/database-platform-utility-000a01bc)**
   Production-grade database utility scripts, automated data validation routines, data dictionary generators, and schema-diff tools across PostgreSQL, MSSQL, Oracle, MySQL, and Greenplum.
 
-- **[Advancesqlpuzzle](https://github.com/Amit1092tiwari/Advancesqlpuzzle)**
+- **[enterprise-algorithm-000a01bc](https://github.com/Amit1092tiwari/enterprise-algorithm-000a01bc)**
   Solutions and query optimization walkthroughs for complex T-SQL algorithmic patterns, advanced window functions, and set-based computations.
 
-- **[Python-Projects](https://github.com/Amit1092tiwari/Python-Projects)**
+- **[Practical-mini-project-000a01bc](https://github.com/Amit1092tiwari/Practical-mini-project-000a01bc)**
   A collection of reusable Python scripts, web scrapers, data extraction pipelines, and automation utilities for everyday data engineering tasks.
 
 - **[Machine-Learning-Projects](https://github.com/Amit1092tiwari/Machine-Learning-Projects)**
