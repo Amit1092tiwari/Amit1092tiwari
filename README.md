@@ -1,6 +1,5 @@
 <div align="center">
-  <h1>Amitkumar Tiwari</h1>
-  <p><strong>Senior Data Engineer | Distributed Systems & Cloud Platforms</strong></p>
+  <p><strong>Distributed Systems & Cloud Platforms</strong></p>
   <p>
     <a href="https://amit1092tiwari.github.io/Amit1092tiwari/">Portfolio Website</a> •
     <a href="https://www.linkedin.com/in/amitkumar-tiwari-651b06ab/">LinkedIn</a> •
