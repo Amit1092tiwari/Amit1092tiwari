@@ -13,7 +13,7 @@
 
 ### About Me
 
-I am a Senior Data Engineer with 8+ years of experience designing and operating batch and streaming data platforms across finance, supply chain, manufacturing, and IoT.
+Senior Data Engineer with 8+ years of experience designing and operating batch and streaming data platforms across finance, supply chain, manufacturing, and IoT.
 
 Most of my day-to-day work centers around:
 - **Cloud Lakehouse & Warehousing**: Designing pipelines and storage layouts on Google Cloud (BigQuery, Dataproc, Cloud Storage, Cloud Composer/Airflow).
