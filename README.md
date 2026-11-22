@@ -35,11 +35,11 @@ Most of my day-to-day work centers around:
 - **[lakehouse-cdc-compaction-benchmark](https://github.com/Amit1092tiwari/lakehouse-cdc-compaction-benchmark)**
   A standalone, 1-command benchmark simulating high-frequency CDC flushes to S3/MinIO. Demonstrates automated compaction with DuckDB/PyArrow to solve the small-files problem, reducing file handles by 99.7% and speeding up analytical queries by 28x.
 
-- **[database-platform-utility-000a01bc](https://github.com/Amit1092tiwari/database-platform-utility-000a01bc)**
-  Production-grade database utility scripts, automated data validation routines, data dictionary generators, and schema-diff tools across PostgreSQL, MSSQL, Oracle, MySQL, and Greenplum.
+- **[cross-rdbms-dataops-toolkit](https://github.com/Amit1092tiwari/cross-rdbms-dataops-toolkit)**
+  Production DataOps toolkit for cross-RDBMS schema diffing, automated data dictionary generation, and data validation across PostgreSQL, MSSQL, Oracle, and MySQL.
 
-- **[enterprise-algorithm-000a01bc](https://github.com/Amit1092tiwari/enterprise-algorithm-000a01bc)**
-  Solutions and query optimization walkthroughs for complex T-SQL algorithmic patterns, advanced window functions, and set-based computations.
+- **[t-sql-advanced-internals](https://github.com/Amit1092tiwari/t-sql-advanced-internals)**
+  Enterprise T-SQL query optimization patterns, execution plan analysis, recursive CTEs, and advanced window functions for large-scale relational engines.
 
 ---
 
