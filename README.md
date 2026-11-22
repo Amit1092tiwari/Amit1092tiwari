@@ -41,13 +41,6 @@ Most of my day-to-day work centers around:
 - **[enterprise-algorithm-000a01bc](https://github.com/Amit1092tiwari/enterprise-algorithm-000a01bc)**
   Solutions and query optimization walkthroughs for complex T-SQL algorithmic patterns, advanced window functions, and set-based computations.
 
-- **[practical-mini-project-000a01bc](https://github.com/Amit1092tiwari/practical-mini-project-000a01bc)**
-  A collection of reusable Python scripts, web scrapers, data extraction pipelines, and automation utilities for everyday data engineering tasks.
-
-- **[ml-projects-000a01bc](https://github.com/Amit1092tiwari/ml-projects-000a01bc)**
-  Practical ML pipelines, statistical modeling experiments, and automated evaluation routines covering regression, classification, and forecasting.
-
-
 ---
 
 ### Tech Stack
