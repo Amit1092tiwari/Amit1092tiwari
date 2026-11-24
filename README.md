@@ -39,7 +39,7 @@ Most of my day-to-day focus centers around:
 - **[lakehouse-cdc-compaction-benchmark](https://github.com/Amit1092tiwari/lakehouse-cdc-compaction-benchmark)** `🥇 Grade A (94%)`  
   A reproducible benchmark evaluating high-frequency CDC flushes to S3/MinIO. Demonstrates automated compaction with DuckDB/PyArrow to solve the small-files problem, reducing file handles by 99.7% and accelerating analytical queries by 28x with automated `pytest` CI.
 
-- **[terraform-docs-samples](https://github.com/Amit1092tiwari/terraform-docs-samples)** `🥇 Grade A (94%)`  
+- **[gcp-enterprise-terraform-blueprints](https://github.com/Amit1092tiwari/gcp-enterprise-terraform-blueprints)** `🥇 Grade A (94%)`  
   Google Cloud Well-Architected enterprise Infrastructure-as-Code blueprints. Spans 160+ modular configurations across Cloud Run multi-region active-active deployments, Serverless VPC Access connectors, Cloud SQL private networking, and automated GitHub Actions CI validation.
 
 - **[bigtech-research-000a01bc](https://github.com/Amit1092tiwari/bigtech-research-000a01bc)** `🥇 Grade A (93%)`  

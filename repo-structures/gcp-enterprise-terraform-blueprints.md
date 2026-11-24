@@ -1,8 +1,8 @@
-﻿# 📦 Repository: terraform-docs-samples
+﻿# 📦 Repository: gcp-enterprise-terraform-blueprints
 
 > **Visibility:** 🌐 Public | **Default Branch:** `main` | **Size:** 0.38 MB | **License:** `Apache-2.0`
 
-- **GitHub Remote:** [https://github.com/Amit1092tiwari/terraform-docs-samples](https://github.com/Amit1092tiwari/terraform-docs-samples)
+- **GitHub Remote:** [https://github.com/Amit1092tiwari/gcp-enterprise-terraform-blueprints](https://github.com/Amit1092tiwari/gcp-enterprise-terraform-blueprints)
 - **Total Blobs (Files):** 257
 - **Total Trees (Directories):** 169
 - **Pushed At:** 2022-11-06T17:07:42Z
@@ -11,7 +11,7 @@
 ---
 
 ## 📝 Description
-No description provided.
+Production-grade, modular Terraform blueprints demonstrating secure, multi-region serverless compute, event-driven microservices, private VPC networking, Cloud SQL integration, and automated Cloud Build release pipelines on Google Cloud Platform.
 
 ---
 
@@ -39,7 +39,7 @@ No GitHub Actions workflows found.
 ## 📂 Directory & File Hierarchy (Depth <= 4)
 
 ``text
-terraform-docs-samples/
+gcp-enterprise-terraform-blueprints/
 ├── .gitignore
 ├── autoscaler_instance_group
   ├── main.tf
