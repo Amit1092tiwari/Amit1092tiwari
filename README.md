@@ -1,5 +1,4 @@
 <div align="center">
-  <h1>Amitkumar Tiwari</h1>
   <p><strong> Distributed Systems, Cloud Lakehouse Platforms & Agentic AI Infrastructure</strong></p>
   <p>
     <a href="https://amit1092tiwari.github.io/Amit1092tiwari/">Portfolio Website</a> •
