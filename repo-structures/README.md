@@ -9,6 +9,7 @@
 
 | Repository Blueprint | Visibility | Maturity Grade | Lifecycle Status | Branch Protection | License | Remote | Description Summary |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| [agentic-data-fabric](agentic-data-fabric.md) | 🌐 Public | 🏆 **Grade A+ (98%)** | Active Flagship | ✅ PR Required | `Apache-2.0` | [Link](https://github.com/Amit1092tiwari/agentic-data-fabric) | Enterprise Deterministic Data Fabric & Model Context Protocol (MCP) Lakehouse Governor. |
 | [open-lakehouse-platform-000a01bc](open-lakehouse-platform-000a01bc.md) | 🌐 Public | 🏆 **Grade A+ (97%)** | Active Flagship | ✅ PR Required | `MIT` | [Link](https://github.com/Amit1092tiwari/open-lakehouse-platform-000a01bc) | Containerized enterprise lakehouse platform (Trino, Iceberg, MinIO, $48.9k/yr TCO). |
 | [lakehouse-cdc-compaction-benchmark](lakehouse-cdc-compaction-benchmark.md) | 🌐 Public | 🥇 **Grade A (94%)** | Active Flagship | ✅ PR Required | `Apache-2.0` | [Link](https://github.com/Amit1092tiwari/lakehouse-cdc-compaction-benchmark) | Merge-on-Read vs Copy-on-Write CDC compaction benchmark with automated pytest CI. |
 | [terraform-docs-samples](terraform-docs-samples.md) | 🌐 Public | 🥇 **Grade A (94%)** | Active Flagship | ✅ PR Required | `Apache-2.0` | [Link](https://github.com/Amit1092tiwari/terraform-docs-samples) | Google Cloud Well-Architected Serverless & VPC multi-region Terraform blueprints. |
