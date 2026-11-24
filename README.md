@@ -31,6 +31,9 @@ Most of my day-to-day focus centers around:
 
 ### Featured Flagship Repositories
 
+- **[agentic-data-fabric](https://github.com/Amit1092tiwari/agentic-data-fabric)** `🏆 Grade A+ (98%)`  
+  Enterprise Deterministic Data Fabric & Autonomous Model Context Protocol (MCP) Lakehouse Governor. Enables AI agents (Claude, Gemini, Antigravity, Cursor) to inspect schemas, analyze query plans, run sandboxed analytical SQL, and trigger autonomous bin-packing compaction with verified deterministic checksums.
+
 - **[open-lakehouse-platform-000a01bc](https://github.com/Amit1092tiwari/open-lakehouse-platform-000a01bc)** `🏆 Grade A+ (97%)`  
   Containerized, vendor-neutral enterprise data platform replacing proprietary SaaS stacks with modern open-source engines (Spark, Kafka, Airflow, DuckDB, dbt Medallion, MinIO, and Superset/Grafana). Features a $48.9k/yr TCO optimization model, 20 Docker services, and 96 automated tests.
 
