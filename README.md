@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Amitkumar Tiwari</h1>
-  <p><strong>Principal Enterprise Architect | Distributed Systems, Cloud Lakehouse Platforms & Agentic AI Infrastructure</strong></p>
+  <p><strong> Distributed Systems, Cloud Lakehouse Platforms & Agentic AI Infrastructure</strong></p>
   <p>
     <a href="https://amit1092tiwari.github.io/Amit1092tiwari/">Portfolio Website</a> •
     <a href="https://www.linkedin.com/in/amitkumar-tiwari-651b06ab/">LinkedIn</a> •
@@ -13,7 +13,7 @@
 
 ### About Me
 
-Principal Enterprise Architect and Technical Leader with 8+ years of engineering experience architecting and operating high-throughput batch and streaming data platforms, multi-region cloud infrastructure, and autonomous agentic AI systems across finance, supply chain, manufacturing, and IoT.
+8+ years of engineering experience architecting and operating high-throughput batch and streaming data platforms, multi-region cloud infrastructure, and autonomous agentic AI systems across finance, supply chain, manufacturing, and IoT.
 
 Most of my day-to-day focus centers around:
 - **Cloud Lakehouse & Warehouse Fabrics:** Designing multi-engine architectures on Google Cloud (BigQuery, Dataproc, Cloud Run, Cloud Storage, Composer/Airflow) and open table formats (Apache Iceberg, Delta Lake, Apache Arrow Flight, DuckDB).
