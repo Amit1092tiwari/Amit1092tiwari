@@ -1,2 +1,0 @@
-Test branch protection verification 2026-11-24
-Direct pushes to main branch should be rejected by GitHub remote.
