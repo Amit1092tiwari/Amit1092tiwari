@@ -1,0 +1,469 @@
+﻿# 📦 Repository: terraform-docs-samples
+
+> **Visibility:** 🌐 Public | **Default Branch:** `main` | **Size:** 0.38 MB | **License:** `Apache-2.0`
+
+- **GitHub Remote:** [https://github.com/Amit1092tiwari/terraform-docs-samples](https://github.com/Amit1092tiwari/terraform-docs-samples)
+- **Total Blobs (Files):** 257
+- **Total Trees (Directories):** 169
+- **Pushed At:** 2022-11-06T17:07:42Z
+- **Created At:** 2022-11-06T16:58:15Z
+
+---
+
+## 📝 Description
+No description provided.
+
+---
+
+## 🛠️ File Extensions & Content Distribution
+
+| File Type | Count |
+| :--- | :--- |
+| `.tf` | 169 files |
+| `.yaml` | 67 files |
+| `.zip` | 4 files |
+| `(no extension)` | 3 files |
+| `.cert` | 2 files |
+| `.key` | 2 files |
+| `.jpg` | 2 files |
+| `.md` | 2 files |
+
+---
+
+## ⚡ CI/CD Automation & Workflows
+
+No GitHub Actions workflows found.
+
+---
+
+## 📂 Directory & File Hierarchy (Depth <= 4)
+
+``text
+terraform-docs-samples/
+├── .gitignore
+├── autoscaler_instance_group
+  ├── main.tf
+├── build
+  ├── int.cloudbuild.yaml
+  ├── lint.cloudbuild.yaml
+├── cloud_run_service_add_tag
+  ├── main.tf
+  ├── test.yaml
+├── cloud_run_service_configuration
+  ├── main.tf
+├── cloud_run_service_connect_cloud_sql
+  ├── main.tf
+├── cloud_run_service_custom_domain_mapping
+  ├── main.tf
+  ├── test.yaml
+├── cloud_run_service_deploy_tag
+  ├── main.tf
+  ├── test.yaml
+├── cloud_run_service_image_processing
+  ├── main.tf
+├── cloud_run_service_ingress
+  ├── main.tf
+├── cloud_run_service_interservice
+  ├── main.tf
+├── cloud_run_service_multiple_regions
+  ├── main.tf
+├── cloud_run_service_noauth
+  ├── main.tf
+├── cloud_run_service_pubsub
+  ├── main.tf
+  ├── test.yaml
+├── cloud_run_service_remove_tag
+  ├── main.tf
+  ├── test.yaml
+├── cloud_run_service_scheduled
+  ├── main.tf
+├── cloud_run_service_secure_services
+  ├── main.tf
+├── cloud_run_service_static_outbound
+  ├── main.tf
+├── cloud_run_service_tasks
+  ├── main.tf
+├── cloud_run_service_traffic_gradual_rollout
+  ├── main.tf
+  ├── test.yaml
+├── cloud_run_service_traffic_latest_revision
+  ├── main.tf
+  ├── test.yaml
+├── cloud_run_service_traffic_rollback
+  ├── main.tf
+  ├── test.yaml
+├── cloud_run_service_traffic_split
+  ├── main.tf
+  ├── test.yaml
+├── cloud_run_service_traffic_split_tag
+  ├── main.tf
+  ├── test.yaml
+├── cloud_run_system_packages
+  ├── main.tf
+├── cloudfunctions2_basic
+  ├── function-source.zip
+  ├── main.tf
+├── cloudfunctions2_basic_auditlogs
+  ├── function-source.zip
+  ├── main.tf
+  ├── test.yaml
+├── cloudfunctions2_basic_gcs
+  ├── function-source.zip
+  ├── main.tf
+  ├── test.yaml
+├── cloudfunctions2_full
+  ├── function-source.zip
+  ├── main.tf
+├── cloudrun_service_access_control
+  ├── main.tf
+├── cloudrun_service_identity
+  ├── main.tf
+├── cloudrun_vpc_access_connector
+  ├── main.tf
+├── CODEOWNERS
+├── composer_multi_project_monitoring
+  ├── main.tf
+  ├── test.yaml
+├── compute_add_persistent_disk
+  ├── main.tf
+├── compute_disk
+  ├── main.tf
+├── compute_packet_mirroring_full
+  ├── main.tf
+├── compute_reservation
+  ├── main.tf
+├── compute_run_shutdown_scripts
+  ├── main.tf
+  ├── shutdown-script.sh
+├── CONTRIBUTING.md
+├── dns_managed_zone_basic
+  ├── main.tf
+├── dns_managed_zone_private
+  ├── main.tf
+├── dns_managed_zone_private_forwarding
+  ├── main.tf
+  ├── test.yaml
+├── dns_managed_zone_private_peering
+  ├── main.tf
+├── dns_managed_zone_quickstart
+  ├── main.tf
+├── dns_managed_zone_service_directory
+  ├── main.tf
+├── dns_policy_basic
+  ├── main.tf
+├── dns_record_set_basic
+  ├── main.tf
+├── dns_response_policy_basic
+  ├── main.tf
+├── dns_response_policy_rule_basic
+  ├── main.tf
+├── eventarc_basic_tf
+  ├── main.tf
+  ├── test.yaml
+├── eventarc_workflows
+  ├── main.tf
+  ├── test.yaml
+  ├── workflow.tftpl
+├── external_cdn_lb_with_backend_bucket
+  ├── main.tf
+├── external_http_lb_bucket_backend
+  ├── images
+    ├── three-cats.jpg
+    ├── two-dogs.jpg
+  ├── main.tf
+├── external_http_lb_mig_backend
+  ├── main.tf
+  ├── test.yaml
+├── external_http_lb_mig_backend_custom_header
+  ├── main.tf
+├── external_ssl_proxy_lb_mig_backend
+  ├── main.tf
+  ├── test.yaml
+├── external_ssl_proxy_lb_mig_backend_custom_header
+  ├── main.tf
+├── external_tcp_proxy_lb_mig_backend
+  ├── main.tf
+├── external_tcp_proxy_lb_mig_backend_custom_header
+  ├── main.tf
+├── external_vpn_gateway
+  ├── main.tf
+├── firewall_with_target_tags
+  ├── main.tf
+├── flask_google_cloud_quickstart
+  ├── main.tf
+├── ha_vpn_gateway_gcp_to_gcp
+  ├── main.tf
+  ├── test.yaml
+├── ha_vpn_over_interconnect_10GB_attach
+  ├── main.tf
+  ├── test.yaml
+├── ha_vpn_over_interconnect_5GB_attach
+  ├── main.tf
+  ├── test.yaml
+├── health-check-region
+  ├── main.tf
+├── health-check-tcp
+  ├── main.tf
+├── instance_custom_hostname
+  ├── main.tf
+├── instance_virtual_display_enabled
+  ├── main.tf
+├── int_https_lb_https_redirect
+  ├── main.tf
+  ├── test.yaml
+├── internal_http_lb_with_mig_backend
+  ├── main.tf
+├── internal_tcp_udp_lb_with_mig_backend
+  ├── main.tf
+├── LICENSE
+├── Makefile
+├── media_cdn_keyset
+  ├── main.tf
+  ├── test.yaml
+├── media_cdn_quickstart
+  ├── main.tf
+  ├── test.yaml
+├── media_cdn_security_policies
+  ├── main.tf
+├── network_custom_mtu
+  ├── main.tf
+├── network_management_connectivity_test_addresses
+  ├── main.tf
+├── network_management_connectivity_test_instances
+  ├── main.tf
+├── os_login
+  ├── main.tf
+├── private_service_connect_google_apis
+  ├── main.tf
+├── privateca_capool_all_fields
+  ├── main.tf
+├── privateca_capool_basic
+  ├── main.tf
+├── privateca_certificate_authority_basic
+  ├── main.tf
+├── privateca_certificate_authority_byo_key
+  ├── main.tf
+  ├── test.yaml
+├── privateca_certificate_authority_subordinate
+  ├── main.tf
+├── privateca_certificate_config
+  ├── main.tf
+├── privateca_certificate_csr
+  ├── main.tf
+├── privateca_certificate_no_authority
+  ├── main.tf
+├── privateca_certificate_with_template
+  ├── main.tf
+├── privateca_quickstart
+  ├── main.tf
+  ├── test.yaml
+├── README.md
+├── region_autoscaler_basic
+  ├── main.tf
+├── regional_external_http_load_balancer
+  ├── main.tf
+├── regional-external-http-load-balancer
+  ├── main.tf
+  ├── test.yaml
+├── shared_vpc_http_ilb_with_mig_backend
+  ├── main.tf
+  ├── test.yaml
+├── shared_vpc_http_ilb_with_mig_backend_basic_example
+  ├── main.tf
+  ├── test.yaml
+├── shared_vpc_http_ilb_with_mig_backend_cross_reference_example
+  ├── main.tf
+  ├── test.yaml
+├── shared_vpc_https_ilb_with_mig_backend_basic_example
+  ├── main.tf
+  ├── sample-private.key
+  ├── sample-server.cert
+  ├── test.yaml
+├── shared_vpc_https_ilb_with_mig_backend_cross_reference_example
+  ├── main.tf
+  ├── sample-private.key
+  ├── sample-server.cert
+  ├── test.yaml
+├── spot_instance_basic
+  ├── main.tf
+├── sql_database_basic
+  ├── main.tf
+├── sql_database_instance_my_sql
+  ├── main.tf
+  ├── test.yaml
+├── sql_database_instance_postgres
+  ├── main.tf
+  ├── test.yaml
+├── sql_database_instance_sqlserver
+  ├── main.tf
+  ├── test.yaml
+├── sql_instance_cmek
+  ├── main.tf
+├── sql_instance_ha
+  ├── main.tf
+  ├── test.yaml
+├── sql_instance_iam_condition
+  ├── main.tf
+  ├── test.yaml
+├── sql_instance_labels
+  ├── main.tf
+  ├── test.yaml
+├── sql_instance_pitr
+  ├── main.tf
+  ├── test.yaml
+├── sql_instance_ssl_cert
+  ├── main.tf
+  ├── test.yaml
+├── sql_mysql_instance_authorized_network
+  ├── main.tf
+  ├── test.yaml
+├── sql_mysql_instance_backup
+  ├── main.tf
+  ├── test.yaml
+├── sql_mysql_instance_backup_location
+  ├── main.tf
+  ├── test.yaml
+├── sql_mysql_instance_backup_retention
+  ├── main.tf
+  ├── test.yaml
+├── sql_mysql_instance_clone
+  ├── main.tf
+  ├── test.yaml
+├── sql_mysql_instance_flags
+  ├── main.tf
+  ├── test.yaml
+├── sql_mysql_instance_private_ip
+  ├── main.tf
+  ├── test.yaml
+├── sql_mysql_instance_public_ip
+  ├── main.tf
+  ├── test.yaml
+├── sql_mysql_instance_pvp
+  ├── main.tf
+  ├── test.yaml
+├── sql_mysql_instance_replica
+  ├── main.tf
+  ├── test.yaml
+├── sql_mysql_instance_ssm
+  ├── main.tf
+  ├── test.yaml
+├── sql_postgres_instance_authorized_network
+  ├── main.tf
+  ├── test.yaml
+├── sql_postgres_instance_backup
+  ├── main.tf
+  ├── test.yaml
+├── sql_postgres_instance_backup_location
+  ├── main.tf
+  ├── test.yaml
+├── sql_postgres_instance_backup_retention
+  ├── main.tf
+  ├── test.yaml
+├── sql_postgres_instance_clone
+  ├── main.tf
+  ├── test.yaml
+├── sql_postgres_instance_flags
+  ├── main.tf
+  ├── test.yaml
+├── sql_postgres_instance_private_ip
+  ├── main.tf
+  ├── test.yaml
+├── sql_postgres_instance_public_ip
+  ├── main.tf
+  ├── test.yaml
+├── sql_postgres_instance_pvp
+  ├── main.tf
+  ├── test.yaml
+├── sql_postgres_instance_replica
+  ├── main.tf
+  ├── test.yaml
+├── sql_postgres_instance_ssm
+  ├── main.tf
+  ├── test.yaml
+├── sql_sqlserver_instance_active_directory
+  ├── main.tf
+  ├── test.yaml
+├── sql_sqlserver_instance_authorized_network
+  ├── main.tf
+├── sql_sqlserver_instance_backup
+  ├── main.tf
+├── sql_sqlserver_instance_backup_location
+  ├── main.tf
+├── sql_sqlserver_instance_backup_retention
+  ├── main.tf
+├── sql_sqlserver_instance_clone
+  ├── main.tf
+├── sql_sqlserver_instance_flags
+  ├── main.tf
+├── sql_sqlserver_instance_private_ip
+  ├── main.tf
+├── sql_sqlserver_instance_public_ip
+  ├── main.tf
+├── sql_sqlserver_instance_replica
+  ├── main.tf
+├── sql_sqlserver_instance_ssm
+  ├── main.tf
+  ├── test.yaml
+├── sql_sqlserver_vm_instance
+  ├── main.tf
+├── storage_hmac_key
+  ├── main.tf
+├── storage_make_data_public
+  ├── main.tf
+├── storage_new_bucket
+  ├── main.tf
+├── storage_object_lifecycle_setting
+  ├── main.tf
+├── storage_pubsub_notifications
+  ├── main.tf
+├── storage_static_website
+  ├── main.tf
+├── target_grpc_proxy_basic
+  ├── main.tf
+├── target_http_proxy_basic
+  ├── main.tf
+├── target_http_proxy_https_redirect
+  ├── main.tf
+├── target_https_proxy_basic
+  ├── main.tf
+├── target_ssl_proxy_basic
+  ├── main.tf
+├── target_tcp_proxy_basic
+  ├── main.tf
+├── test
+  ├── integration
+    ├── go.mod
+    ├── go.sum
+    ├── sample_test.go
+  ├── setup
+    ├── fixtures.tf
+    ├── iam.tf
+    ├── main.tf
+    ├── outputs.tf
+    ├── variables.tf
+├── url_map_bucket_and_service
+  ├── main.tf
+├── url_map_header_based_routing
+  ├── main.tf
+├── url_map_parameter_based_routing
+  ├── main.tf
+├── url_map_traffic_director_path
+  ├── main.tf
+├── url_map_traffic_director_path_partial
+  ├── main.tf
+├── url_map_traffic_director_route
+  ├── main.tf
+├── url_map_traffic_director_route_partial
+  ├── main.tf
+├── vertex_ai_dataset
+  ├── main.tf
+  ├── test.yaml
+├── vertex_ai_featurestore
+  ├── main.tf
+├── vertex_ai_managed_notebooks_runtime
+  ├── main.tf
+├── vertex_ai_metadata_store
+  ├── main.tf
+├── vertex_ai_user_managed_notebooks_instance
+  ├── main.tf
+``
