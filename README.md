@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Amitkumar Tiwari</h1>
-  <p><strong>Senior Data Engineer | Distributed Systems & Cloud Platforms</strong></p>
+  <p><strong>Principal Enterprise Architect | Distributed Systems, Cloud Lakehouse Platforms & Agentic AI Infrastructure</strong></p>
   <p>
     <a href="https://amit1092tiwari.github.io/Amit1092tiwari/">Portfolio Website</a> •
     <a href="https://www.linkedin.com/in/amitkumar-tiwari-651b06ab/">LinkedIn</a> •
@@ -13,12 +13,13 @@
 
 ### About Me
 
-Senior Data Engineer with 8+ years of experience designing and operating batch and streaming data platforms across finance, supply chain, manufacturing, and IoT.
+Principal Enterprise Architect and Technical Leader with 8+ years of engineering experience architecting and operating high-throughput batch and streaming data platforms, multi-region cloud infrastructure, and autonomous agentic AI systems across finance, supply chain, manufacturing, and IoT.
 
-Most of my day-to-day work centers around:
-- **Cloud Lakehouse & Warehousing**: Designing pipelines and storage layouts on Google Cloud (BigQuery, Dataproc, Cloud Storage, Cloud Composer/Airflow).
-- **Streaming & Storage Internals**: CDC ingestion, Merge-on-Read (MoR) patterns, automated compaction, and tuning query engines like DuckDB and PyArrow.
-- **Reliability & Observability**: Instrumenting data pipelines with OpenTelemetry, tracing bottlenecks, and reducing file-handle/IOPS overhead on object storage.
+Most of my day-to-day focus centers around:
+- **Cloud Lakehouse & Warehouse Fabrics:** Designing multi-engine architectures on Google Cloud (BigQuery, Dataproc, Cloud Run, Cloud Storage, Composer/Airflow) and open table formats (Apache Iceberg, Delta Lake, Apache Arrow Flight, DuckDB).
+- **Streaming & Storage Internals:** High-frequency CDC ingestion, Merge-on-Read (MoR) vs. Copy-on-Write (CoW) trade-offs, automated compaction heuristics, and low-latency query engine tuning.
+- **Agentic AI & Autonomous Systems:** Engineering deterministic data fabrics for autonomous AI agents, Model Context Protocol (MCP) integrations, self-healing pipeline governors, and multi-agent workflow orchestration.
+- **Reliability, IaC & Observability:** Multi-region Infrastructure-as-Code with Terraform, distributed tracing with OpenTelemetry, and strict DevSecOps CI/CD governance.
 
 ---
 
@@ -28,23 +29,32 @@ Most of my day-to-day work centers around:
 
 ---
 
-### Projects & Repositories
+### Featured Flagship Repositories
 
-- **[open-lakehouse-platform-000a01bc](https://github.com/Amit1092tiwari/open-lakehouse-platform-000a01bc)**
-  A containerized, vendor-neutral enterprise data platform replacing proprietary SaaS stacks with open-source engines (Spark, Kafka, Airflow, DuckDB, dbt Medallion, MinIO, and Superset/Grafana). Includes 20 Docker services and 90+ automated tests.
+- **[open-lakehouse-platform-000a01bc](https://github.com/Amit1092tiwari/open-lakehouse-platform-000a01bc)** `🏆 Grade A+ (97%)`  
+  Containerized, vendor-neutral enterprise data platform replacing proprietary SaaS stacks with modern open-source engines (Spark, Kafka, Airflow, DuckDB, dbt Medallion, MinIO, and Superset/Grafana). Features a $48.9k/yr TCO optimization model, 20 Docker services, and 96 automated tests.
 
-- **[lakehouse-cdc-compaction-benchmark](https://github.com/Amit1092tiwari/lakehouse-cdc-compaction-benchmark)**
-  A standalone, 1-command benchmark simulating high-frequency CDC flushes to S3/MinIO. Demonstrates automated compaction with DuckDB/PyArrow to solve the small-files problem, reducing file handles by 99.7% and speeding up analytical queries by 28x.
+- **[lakehouse-cdc-compaction-benchmark](https://github.com/Amit1092tiwari/lakehouse-cdc-compaction-benchmark)** `🥇 Grade A (94%)`  
+  A reproducible benchmark evaluating high-frequency CDC flushes to S3/MinIO. Demonstrates automated compaction with DuckDB/PyArrow to solve the small-files problem, reducing file handles by 99.7% and accelerating analytical queries by 28x with automated `pytest` CI.
 
-- **[cross-rdbms-dataops-toolkit](https://github.com/Amit1092tiwari/cross-rdbms-dataops-toolkit)**
-  Production DataOps toolkit for cross-RDBMS schema diffing, automated data dictionary generation, and data validation across PostgreSQL, MSSQL, Oracle, and MySQL.
+- **[terraform-docs-samples](https://github.com/Amit1092tiwari/terraform-docs-samples)** `🥇 Grade A (94%)`  
+  Google Cloud Well-Architected enterprise Infrastructure-as-Code blueprints. Spans 160+ modular configurations across Cloud Run multi-region active-active deployments, Serverless VPC Access connectors, Cloud SQL private networking, and automated GitHub Actions CI validation.
 
-- **[t-sql-advanced-internals](https://github.com/Amit1092tiwari/t-sql-advanced-internals)**
-  Enterprise T-SQL query optimization patterns, execution plan analysis, recursive CTEs, and advanced window functions for large-scale relational engines.
+- **[bigtech-research-000a01bc](https://github.com/Amit1092tiwari/bigtech-research-000a01bc)** `🥇 Grade A (93%)`  
+  Autonomous daily agentic research engine. Runs unattended daily GitHub Actions crons scanning 13 major open-source Big Data repositories, auditing L1–L6 architectural fault cascades with constitutional system rules, and auto-generating runnable Python chaos benchmark scripts.
+
+- **[cross-rdbms-dataops-toolkit](https://github.com/Amit1092tiwari/cross-rdbms-dataops-toolkit)** `🥇 Grade A (92%)`  
+  Production DataOps toolkit for cross-RDBMS schema diffing, automated data dictionary generation, and data validation across PostgreSQL, MSSQL, Oracle, MySQL, and Greenplum with automated integration test suites.
+
+- **[t-sql-advanced-internals](https://github.com/Amit1092tiwari/t-sql-advanced-internals)** `🥇 Grade A (91%)`  
+  Enterprise relational query optimization whitepaper and puzzle QA suite covering sargability principles, window function memory grant segment/sequence projects, recursive CTE depth heuristics, and execution plan analysis.
 
 ---
 
-### Tech Stack
-- **Data & Engines:** Apache Spark, PySpark, DuckDB, PyArrow, Delta Lake, Apache Hudi, Kafka, MinIO
-- **Google Cloud:** BigQuery, Dataproc, Cloud Composer, Pub/Sub, Cloud Storage, Cloud Functions
-- **Tools & Infra:** Python, SQL / T-SQL, Docker, Kubernetes, Terraform, Git, OpenTelemetry
+### Tech Stack & Core Competencies
+
+- **Agentic AI & Autonomous Systems:** Model Context Protocol (MCP), Autonomous Agent Workflows, Multi-Agent Swarms, Constitutional System Prompts, LLM Function Calling, Self-Healing DataOps
+- **Data & Storage Engines:** Apache Spark, PySpark, Trino, DuckDB, PyArrow, Apache Iceberg, Delta Lake, Apache Hudi, Kafka, MinIO
+- **Google Cloud Platform:** BigQuery, Dataproc, Cloud Run, Cloud Composer, Pub/Sub, Cloud Storage, Cloud Functions, Cloud SQL, VPC Access
+- **Infrastructure & DevSecOps:** Terraform (IaC), Docker, Kubernetes, CI/CD (GitHub Actions / Cloud Build), OpenTelemetry, Git Governance
+- **Languages & Databases:** Python, SQL / T-SQL, Bash, PostgreSQL, MSSQL, MySQL, Oracle, Greenplum
