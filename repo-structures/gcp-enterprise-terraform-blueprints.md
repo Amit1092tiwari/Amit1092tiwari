@@ -1,4 +1,4 @@
-﻿# 📦 Repository: gcp-enterprise-terraform-blueprints
+# 📦 Repository: gcp-enterprise-terraform-blueprints
 
 > **Visibility:** 🌐 Public | **Default Branch:** `main` | **Size:** 0.38 MB | **License:** `Apache-2.0`
 
