@@ -1,4 +1,4 @@
-﻿# 🏛️ Enterprise Repository Catalog & Structural Blueprints
+# 🏛️ Enterprise Repository Catalog & Structural Blueprints
 **Generated:** 2026-11-24 15:31:39  
 **Target Profile:** [github.com/Amit1092tiwari](https://github.com/Amit1092tiwari)  
 **Total Repositories Cataloged:** 16 (Public: 13, Private: 3)
