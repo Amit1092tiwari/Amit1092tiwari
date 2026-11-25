@@ -30,25 +30,25 @@ Most of my day-to-day focus centers around:
 
 ### Featured Flagship Repositories
 
-- **[agentic-data-fabric](https://github.com/Amit1092tiwari/agentic-data-fabric)** `🏆 Grade A+ (98%)`  
+- **[agentic-data-fabric](https://github.com/Amit1092tiwari/agentic-data-fabric)** 
   Enterprise Deterministic Data Fabric & Autonomous Model Context Protocol (MCP) Lakehouse Governor. Enables AI agents (Claude, Gemini, Antigravity, Cursor) to inspect schemas, analyze query plans, run sandboxed analytical SQL, and trigger autonomous bin-packing compaction with verified deterministic checksums.
 
-- **[open-lakehouse-platform-000a01bc](https://github.com/Amit1092tiwari/open-lakehouse-platform-000a01bc)** `🏆 Grade A+ (97%)`  
+- **[open-lakehouse-platform-000a01bc](https://github.com/Amit1092tiwari/open-lakehouse-platform-000a01bc)**
   Containerized, vendor-neutral enterprise data platform replacing proprietary SaaS stacks with modern open-source engines (Spark, Kafka, Airflow, DuckDB, dbt Medallion, MinIO, and Superset/Grafana). Features a $48.9k/yr TCO optimization model, 20 Docker services, and 96 automated tests.
 
-- **[lakehouse-cdc-compaction-benchmark](https://github.com/Amit1092tiwari/lakehouse-cdc-compaction-benchmark)** `🥇 Grade A (94%)`  
+- **[lakehouse-cdc-compaction-benchmark](https://github.com/Amit1092tiwari/lakehouse-cdc-compaction-benchmark)**  
   A reproducible benchmark evaluating high-frequency CDC flushes to S3/MinIO. Demonstrates automated compaction with DuckDB/PyArrow to solve the small-files problem, reducing file handles by 99.7% and accelerating analytical queries by 28x with automated `pytest` CI.
 
-- **[gcp-enterprise-terraform-blueprints](https://github.com/Amit1092tiwari/gcp-enterprise-terraform-blueprints)** `🥇 Grade A (94%)`  
+- **[gcp-enterprise-terraform-blueprints](https://github.com/Amit1092tiwari/gcp-enterprise-terraform-blueprints)** 
   Google Cloud Well-Architected enterprise Infrastructure-as-Code blueprints. Spans 160+ modular configurations across Cloud Run multi-region active-active deployments, Serverless VPC Access connectors, Cloud SQL private networking, and automated GitHub Actions CI validation.
 
-- **[bigtech-research-000a01bc](https://github.com/Amit1092tiwari/bigtech-research-000a01bc)** `🥇 Grade A (93%)`  
+- **[bigtech-research-000a01bc](https://github.com/Amit1092tiwari/bigtech-research-000a01bc)**
   Autonomous daily agentic research engine. Runs unattended daily GitHub Actions crons scanning 13 major open-source Big Data repositories, auditing L1–L6 architectural fault cascades with constitutional system rules, and auto-generating runnable Python chaos benchmark scripts.
 
-- **[cross-rdbms-dataops-toolkit](https://github.com/Amit1092tiwari/cross-rdbms-dataops-toolkit)** `🥇 Grade A (92%)`  
+- **[cross-rdbms-dataops-toolkit](https://github.com/Amit1092tiwari/cross-rdbms-dataops-toolkit)**
   Production DataOps toolkit for cross-RDBMS schema diffing, automated data dictionary generation, and data validation across PostgreSQL, MSSQL, Oracle, MySQL, and Greenplum with automated integration test suites.
 
-- **[t-sql-advanced-internals](https://github.com/Amit1092tiwari/t-sql-advanced-internals)** `🥇 Grade A (91%)`  
+- **[t-sql-advanced-internals](https://github.com/Amit1092tiwari/t-sql-advanced-internals)**
   Enterprise relational query optimization whitepaper and puzzle QA suite covering sargability principles, window function memory grant segment/sequence projects, recursive CTE depth heuristics, and execution plan analysis.
 
 ---
